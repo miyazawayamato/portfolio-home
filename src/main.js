@@ -11,7 +11,7 @@ class Main extends React.Component {
                 <Row className="justify-content-md-center">
                     <Col className="col-md-4">
                         <Box 
-                            img="meadow-hogweed-4530921_640.jpg"
+                            img="noimage.jpg"
                             title="ポートフォリオ紹介サイト" 
                             front="html/css,reatct,react-bootstrap" 
                             back="なし"
@@ -23,7 +23,7 @@ class Main extends React.Component {
                     </Col>
                     <Col className="col-md-4">
                         <Box 
-                            img="meadow-hogweed-4530921_640.jpg"
+                            img="qiitatop.png"
                             title="qiita風サイト" 
                             front="html/css,bootstrap,jquery" 
                             back="php,laravel"
@@ -35,7 +35,7 @@ class Main extends React.Component {
                     </Col>
                     <Col className="col-md-4">
                         <Box 
-                            img="meadow-hogweed-4530921_640.jpg"
+                            img="blogtop.png"
                             title="簡易cms（ブログ）"
                             front="html/css,scss,javascript" 
                             back="php"
