@@ -11,8 +11,8 @@ function App() {
   return (
     <div >
       <Header />
-      <Router>
-        <Switch basename={process.env.PUBLIC_URL}>
+      <Router basename={process.env.PUBLIC_URL}>
+        <Switch>
           <Route exact path="/" component={Main}></Route>
           <Route path="/indiv/:id" component={Indiv}></Route>
           <Route  component={notFound}></Route>
