@@ -26,7 +26,7 @@ const Indiv = () => {
     
     return (
         
-        <div className="mx-auto" style={{ width: '65%' }} >
+        <div className="mx-auto" style={{ width: '60%' }} >
             <div className="py-5 border-bottom indiv-text" style={{marginBottom: '70px'}}>
                 <Image src={`${process.env.PUBLIC_URL}/img/${obj.img1}`}  fluid />
                 <p className="mt-5 ">{obj.text1}</p>

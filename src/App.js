@@ -8,7 +8,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div>
+    <div >
       <Header />
       <Router>
         <Route exact path="/" component={Main}></Route>

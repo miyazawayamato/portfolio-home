@@ -24,7 +24,7 @@ class Box extends React.Component {
                     <Card.Body>
                         <Card.Title>{this.props.title}</Card.Title>
                         <span>フロントエンド</span>
-                        <Card.Text>{this.props.front}</Card.Text>
+                        <Card.Text className="mb-0">{this.props.front}</Card.Text>
                         <span>バックエンド</span>
                         <Card.Text>{this.props.back}</Card.Text>
                         <Card.Text>{this.props.link}</Card.Text>
