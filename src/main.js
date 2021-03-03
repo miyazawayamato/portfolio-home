@@ -15,9 +15,10 @@ class Main extends React.Component {
                             title="ポートフォリオ紹介サイト" 
                             front="html/css,reatct,react-bootstrap" 
                             back="なし"
+                            text="現在のページです"
                             siteLink="current"
                             gitLink="https://github.com/miyazawayamato/portfolio-home"
-                            link={<Link to="/indiv/0">詳しい説明</Link>}
+                            link={<Link to="/indiv/0">詳しく</Link>}
                         />
                     </Col>
                     <Col className="col-md-4">
@@ -26,27 +27,23 @@ class Main extends React.Component {
                             title="qiita風サイト" 
                             front="html/css,bootstrap,jquery" 
                             back="php,laravel"
+                            text="一番力を入れた制作物ですです。dockerで開発し、cicleciで自動テスト、成功したらAWSにデプロイ。"
                             siteLink="http://35.72.100.242/site/laravel/public/index.php"
                             gitLink="https://github.com/miyazawayamato/laravel"
-                            link={<Link to="/indiv/1">詳しい説明</Link>}
+                            link={<Link to="/indiv/1">詳しく</Link>}
                         />
                     </Col>
                     <Col className="col-md-4">
                         <Box 
                             img="meadow-hogweed-4530921_640.jpg"
                             title="簡易cms（ブログ）"
-                            front="html/css,scss,bootstrap,jquery" 
-                            back="php,laravel"
+                            front="html/css,scss,javascript" 
+                            back="php"
+                            text="フレームワークやライブラリは未使用で、言語の理解を深めるために目的で制作しました。"
                             siteLink="https://dokusika.deca.jp/site/portfolio-blog/public/"
                             gitLink="https://github.com/miyazawayamato/portfolio-blog/tree/master"
-                            link={<Link to="/indiv/2">詳しい説明</Link>}
+                            link={<Link to="/indiv/2">詳しく</Link>}
                         />
-                    </Col>
-                    <Col >
-                    </Col>
-                    <Col >
-                    </Col>
-                    <Col >
                     </Col>
                 </Row>
             </Container>

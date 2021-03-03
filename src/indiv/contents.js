@@ -1,7 +1,7 @@
 const site0 = {
     img1:'ダチュラ.jpg',
     text1:'reactでspaのサイトを作成しました。使ったライブラリは、「react-bootstrap」「react-router」「」です。ご覧になって頂いている通り「詳しい説明」をクリックすると、各サイトの詳しい説明が書かれているページに遷移します。',
-    img2:'ダチュラ.jpg',
+    img2:'meadow-hogweed-4530921_640.jpg',
     text2:'サイトは「github pages」でデプロイをしています。',
     img3:'ダチュラ.jpg',
     text3:'デザインに関して',

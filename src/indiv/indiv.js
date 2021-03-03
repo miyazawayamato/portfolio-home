@@ -25,19 +25,25 @@ const Indiv = () => {
     
     
     return (
-        
-        <div className="mx-auto" style={{ width: '60%' }} >
-            <div className="py-5 border-bottom indiv-text" style={{marginBottom: '70px'}}>
-                <Image src={`${process.env.PUBLIC_URL}/img/${obj.img1}`}  fluid />
-                <p className="mt-5 ">{obj.text1}</p>
+        <div className="mx-auto" style={{ width: '75%' }} >
+            <Link to="/">戻る</Link>
+            <div className="py-5 border-bottom indiv-text d-md-flex" style={{marginBottom: '70px'}}>
+                <div className="half">
+                    <Image src={`${process.env.PUBLIC_URL}/img/${obj.img1}`} fluid />
+                </div>
+                <p className="ml-md-5 m-0 half">{obj.text1}</p>
             </div>
-            <div className="py-5 border-bottom indiv-text" style={{marginBottom: '70px'}}>
-                <Image src={`${process.env.PUBLIC_URL}/img/${obj.img2}`}  fluid />
-                <p className="mt-5 ">{obj.text2}</p>
+            <div className="py-5 border-bottom indiv-text d-md-flex" style={{marginBottom: '70px'}}>
+                <div className="half">
+                    <Image src={`${process.env.PUBLIC_URL}/img/${obj.img2}`} fluid />
+                </div>
+                <p className="ml-md-5 m-0 half">{obj.text2}</p>
             </div>
-            <div className="py-5 border-bottom indiv-text"  style={{marginBottom: '70px'}}>
-                <Image src={`${process.env.PUBLIC_URL}/img/${obj.img3}`} fluid />
-                <p className="mt-5 ">{obj.text3}</p>
+            <div className="py-5 border-bottom indiv-text d-md-flex"  style={{marginBottom: '70px'}}>
+                <div className="half">
+                    <Image src={`${process.env.PUBLIC_URL}/img/${obj.img3}`} fluid />
+                </div>
+                <p className="ml-md-5 m-0 half">{obj.text3}</p>
             </div>
             <Link to="/">home</Link>
         </div>
