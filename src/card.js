@@ -33,7 +33,7 @@ const Box = (props) => {
                 </Card.Body>
                 <div >
                     <Button variant="primary" style={{ width: '50%'}} onClick={() => pageTransition(`${props.siteLink}`)}>サイトへ</Button>
-                    <Button variant="info" style={{ width: '50%' }} onClick={() => this.pageTransition(`${props.gitLink}`)}>githubへ</Button>
+                    <Button variant="info" style={{ width: '50%' }} onClick={() => pageTransition(`${props.gitLink}`)}>githubへ</Button>
                 </div>
             </Card>
         </animated.div>
