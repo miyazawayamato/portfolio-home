@@ -21,6 +21,15 @@ const Indiv = () => {
         case '2':
             obj = objs[2];
             break;
+        case '3':
+            obj = objs[3];
+            break;
+        case '4':
+            obj = objs[4];
+            break;
+        case '5':
+            obj = objs[5];
+            break;
     }
     
     
@@ -45,7 +54,7 @@ const Indiv = () => {
                 </div>
                 <p className="ml-md-5 m-0 half">{obj.text3}</p>
             </div>
-            <Link to="/">home</Link>
+            <Link to="/">戻る</Link>
         </div>
         
     );

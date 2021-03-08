@@ -5,6 +5,7 @@ import Main from './main.js';
 import Indiv from './indiv/indiv.js';
 import notFound from './notFound.js';
 import React, { useState } from 'react';
+import ScrollToTop from './ScrollToTop';
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
@@ -20,13 +21,16 @@ const App = () => {
     <div >
       {/* <div onLoad={() => loadCompleted(false)} style={{display : on}}>ロード中です</div> */}
       <Header />
-      <Router basename={process.env.PUBLIC_URL}>
-        <Switch>
-          <Route exact path="/" component={Main}></Route>
-          <Route path="/indiv/:id" component={Indiv}></Route>
-          <Route  component={notFound}></Route>
-        </Switch>
-      </Router>
+        <Router basename={process.env.PUBLIC_URL}>
+          <ScrollToTop>
+          <Switch>
+            <Route exact path="/" component={Main}></Route>
+            <Route path="/indiv/:id" component={Indiv}></Route>
+            <Route  component={notFound}></Route>
+          </Switch>
+          </ScrollToTop>
+        </Router>
+      <footer></footer>
     </div>
   );
 }

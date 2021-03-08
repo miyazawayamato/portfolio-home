@@ -18,24 +18,24 @@ const Box = (props) => {
     }
     
     return(
-        <animated.div  style={anime} className="border border-success">
-            <Card >
+        <animated.div  style={anime} >
+            <Card border="dark">
                 <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/img/${props.img}`} />
-                <Card.Body>
+                <Card.Body className="brow">
                     <Card.Title>{props.title}</Card.Title>
                     <span className="text-info">フロントエンド</span>
-                    <Card.Text className="mb-0 text-secondary">{props.front}</Card.Text>
+                    <Card.Text className="mb-0 text-secondary text-truncate">{props.front}</Card.Text>
                     <span className="text-info">バックエンド</span>
-                    <Card.Text className="text-secondary">{props.back}</Card.Text>
-                    <span className="text-info">説明</span>
-                    <Card.Text className="mb-0 text-secondary">{props.text}</Card.Text>
+                    <Card.Text className="mb-0 text-secondary text-truncate">{props.back}</Card.Text>
+                    {/* <span className="text-info">説明</span>
+                    <Card.Text className="mb-0 text-secondary  text-truncate">{props.text}</Card.Text> */}
                     <Card.Text>{props.link}</Card.Text>
                 </Card.Body>
+                <div >
+                    <Button variant="primary" style={{ width: '50%'}} onClick={() => pageTransition(`${props.siteLink}`)}>サイトへ</Button>
+                    <Button variant="info" style={{ width: '50%' }} onClick={() => this.pageTransition(`${props.gitLink}`)}>githubへ</Button>
+                </div>
             </Card>
-            <div>
-                <Button variant="primary" style={{ width: '50%'}} onClick={() => pageTransition(`${props.siteLink}`)}>サイトへ移動</Button>
-                <Button variant="info" style={{ width: '50%' }} onClick={() => this.pageTransition(`${props.gitLink}`)}>githubへ移動</Button>
-            </div>
         </animated.div>
     );
 }
