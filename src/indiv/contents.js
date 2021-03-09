@@ -47,7 +47,7 @@ const site5 = {
     img1:'noimage.jpg',
     text1:'現在開発中のためコードのみ掲載しています。laravelとreactを組み合わせたSPAの制作物がないため、制作しようと考えました。また、これまではgithubのpullRequestやissueを利用することが少なかっため、それらを利用して制作予定です。',
     img2:'noimage.jpg',
-    text2:'開発中',
+    text2:'カレンダーを利用したtodoリストを制作中です。実装予定の機能は、通知やタスクスケジューラ等です。',
     img3:'noimage.jpg',
     text3:'開発中',
 };

@@ -68,12 +68,12 @@ class Main extends React.Component {
                     <Col className="col-lg-4 col-md-6 col-12 mt-3">
                         <Box 
                             img="noimage.jpg"
-                            title="laravel×React(開発中)"
+                            title="laravel×React(コードのみ)"
                             front="react" 
                             back="laravel"
                             text="開発中です"
                             siteLink="current"
-                            gitLink="https://github.com/miyazawayamato"
+                            gitLink="https://github.com/miyazawayamato/laravel-react/tree/develop"
                             link={<Link to="/indiv/5">詳しい説明</Link>}
                         />
                     </Col>
