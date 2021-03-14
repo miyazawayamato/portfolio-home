@@ -45,9 +45,9 @@ const site4 = {
 
 const site5 = {
     img1:'noimage.jpg',
-    text1:'現在開発中のためコードのみ掲載しています。laravelとreactを組み合わせたSPAの制作物がないため、制作しようと考えました。また、これまではgithubのpullRequestやissueを利用することが少なかっため、それらを利用して制作予定です。',
+    text1:'現在開発中のためコードのみ掲載しています。laravelとreactを組み合わせたSPAの制作物がないため、制作しようと考えました。また、これまではgithubのpullRequestやmergeを利用することが少なかっため、それらを利用して制作予定です。',
     img2:'noimage.jpg',
-    text2:'カレンダーを利用したtodoリストを制作中です。実装予定の機能は、通知やタスクスケジューラ等です。',
+    text2:'政府CIOポータルのオープンデータAPIを利用して、コロナウイルスの感染者情報等を取得できるサイトを制作中です。また、それをtwitterにある時間に投稿できるbotも実装予定です。',
     img3:'noimage.jpg',
     text3:'開発中',
 };
