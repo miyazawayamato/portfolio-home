@@ -44,12 +44,12 @@ const site4 = {
 };
 
 const site5 = {
-    img1:'noimage.jpg',
-    text1:'現在開発中のためコードのみ掲載しています。laravelとreactを組み合わせたSPAの制作物がないため、制作しようと考えました。また、これまではgithubのpullRequestやmergeを利用することが少なかっため、それらを利用して制作予定です。',
-    img2:'noimage.jpg',
-    text2:'政府CIOポータルのオープンデータAPIを利用して、コロナウイルスの感染者情報等を取得できるサイトを制作中です。また、それをtwitterにある時間に投稿できるbotも実装予定です。',
-    img3:'noimage.jpg',
-    text3:'開発中',
+    img1:'covid1.png',
+    text1:'コロナウイルスの情報が分かるサイトとそれをTwitterで自動でつぶやくBOTです。laravelとreactを用いて、政府CIOポータルが公開しているオープンAPIからデータを取得して表示しています。ツイッターアカウントは「@test66130109」。',
+    img2:'covid3.png',
+    text2:'laravelとreactで簡単なSPAのサイトを製作しました。フロント側のみでも実装はできますが、バックエンド側でapiに接続して情報を取得して、axiosを利用してフロント側にデータを持ってくるようにしてあります。デプロイはherokuにしてあります。',
+    img3:'covid2.png',
+    text3:'ある時間にコロナウイルスの最新情報を自動ツイートするタスクスケジュールを登録してあります。そして、Heroku Scheduler でphp artisan schedule:run　コマンドを実行するようにしてあります。実行時間帯は使用上やや不定期気味なので、ツイートも時間はやや不定期です。',
 };
 
 const objs = [site0,site1,site2,site3,site4,site5];

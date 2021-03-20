@@ -67,13 +67,13 @@ class Main extends React.Component {
                     </Col>
                     <Col className="col-lg-4 col-md-6 col-12 mt-3">
                         <Box 
-                            img="noimage.jpg"
-                            title="laravel×React(コードのみ)"
+                            img="covidtop.png"
+                            title="コロナ人数確認サイト、bot"
                             front="react" 
-                            back="laravel"
-                            text="開発中です"
-                            siteLink="current"
-                            gitLink="https://github.com/miyazawayamato/laravel-react/tree/develop"
+                            back="laravel,(heroku)"
+                            text="コロナウイルスの状況確認とTwitterBotです"
+                            siteLink="https://glacial-sierra-22254.herokuapp.com/"
+                            gitLink="https://github.com/miyazawayamato/laravel-react"
                             link={<Link to="/indiv/5">詳しい説明</Link>}
                         />
                     </Col>
