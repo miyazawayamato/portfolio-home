@@ -69,7 +69,7 @@ class Main extends React.Component {
                         <Box 
                             img="covidtop.png"
                             title="コロナ人数確認サイト、bot"
-                            front="react" 
+                            front="react,scss" 
                             back="laravel,(heroku)"
                             text="コロナウイルスの状況確認とTwitterBotです"
                             siteLink="https://glacial-sierra-22254.herokuapp.com/"
