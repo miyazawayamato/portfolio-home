@@ -11,17 +11,6 @@ class Main extends React.Component {
                 <Row className=" row-height">
                     <Col className="col-lg-4 col-md-6 col-12 mt-3">
                         <Box 
-                            img="hometop.png"
-                            title="ポートフォリオ紹介サイト" 
-                            front="html/css,reatct,react-bootstrap" 
-                            back="なし"
-                            siteLink="current"
-                            gitLink="https://github.com/miyazawayamato/portfolio-home"
-                            link={<Link to="/indiv/0">詳しい説明</Link>}
-                        />
-                    </Col>
-                    <Col className="col-lg-4 col-md-6 col-12 mt-3">
-                        <Box 
                             img="qiitatop.png"
                             title="qiita風サイト" 
                             front="html/css,bootstrap,jquery" 
@@ -33,13 +22,26 @@ class Main extends React.Component {
                     </Col>
                     <Col className="col-lg-4 col-md-6 col-12 mt-3">
                         <Box 
-                            img="blogtop.png"
-                            title="簡易cms（ブログ）"
-                            front="html/css,scss,javascript" 
-                            back="php"
-                            siteLink="https://dokusika.deca.jp/site/portfolio-blog/public/"
-                            gitLink="https://github.com/miyazawayamato/portfolio-blog/tree/master"
+                            img="spring1.png"
+                            title="在庫管理システム(コードのみ)"
+                            front="react,typescript" 
+                            back="java,springboot"
+                            text=""
+                            siteLink="current"
+                            gitLink="https://github.com/miyazawayamato/spring-boot"
                             link={<Link to="/indiv/2">詳しい説明</Link>}
+                        />
+                    </Col>
+                    <Col className="col-lg-4 col-md-6 col-12 mt-3">
+                        <Box 
+                            img="covidtop.png"
+                            title="コロナ人数確認サイト、bot"
+                            front="react,scss" 
+                            back="laravel,(heroku)"
+                            text="コロナウイルスの状況確認とTwitterBotです"
+                            siteLink="https://glacial-sierra-22254.herokuapp.com/"
+                            gitLink="https://github.com/miyazawayamato/laravel-react"
+                            link={<Link to="/indiv/5">詳しい説明</Link>}
                         />
                     </Col>
                     <Col className="col-lg-4 col-md-6 col-12 mt-3">
@@ -55,26 +57,25 @@ class Main extends React.Component {
                     </Col>
                     <Col className="col-lg-4 col-md-6 col-12 mt-3">
                         <Box 
-                            img="apitop.png"
-                            title="お問い合わせフォーム、api"
-                            front="html/css,react" 
-                            back="なし"
-                            text="laravelをapiサーバーとして利用して、外部から叩きました。"
-                            siteLink="https://miyazawayamato.github.io/react-api/"
-                            gitLink="https://github.com/miyazawayamato/react-api"
+                            img="blogtop.png"
+                            title="簡易cms（ブログ）"
+                            front="html/css,scss,javascript" 
+                            back="php"
+                            siteLink="https://dokusika.deca.jp/site/portfolio-blog/public/"
+                            gitLink="https://github.com/miyazawayamato/portfolio-blog/tree/master"
+                            //数字注意
                             link={<Link to="/indiv/4">詳しい説明</Link>}
                         />
                     </Col>
                     <Col className="col-lg-4 col-md-6 col-12 mt-3">
                         <Box 
-                            img="covidtop.png"
-                            title="コロナ人数確認サイト、bot"
-                            front="react,scss" 
-                            back="laravel,(heroku)"
-                            text="コロナウイルスの状況確認とTwitterBotです"
-                            siteLink="https://glacial-sierra-22254.herokuapp.com/"
-                            gitLink="https://github.com/miyazawayamato/laravel-react"
-                            link={<Link to="/indiv/5">詳しい説明</Link>}
+                            img="hometop.png"
+                            title="ポートフォリオ紹介サイト" 
+                            front="html/css,reatct,react-bootstrap" 
+                            back="なし"
+                            siteLink="current"
+                            gitLink="https://github.com/miyazawayamato/portfolio-home"
+                            link={<Link to="/indiv/0">詳しい説明</Link>}
                         />
                     </Col>
                 </Row>
