@@ -38,9 +38,9 @@ const site2 = {
     img1:'spring1.png',
     text1:'springbootとreactで制作した在庫管理システムです。納品、納品履歴の確認、在庫・納品先の編集ができます。商品の種類と納品数・納品先を選んで登録することで、現在の在庫数から個数が引かれ履歴として登録されます。',
     img2:'spring2.png',
-    text2:'springbootでapiを作成して、SPAで処理ができるようにしてあります。',
+    text2:'springbootでapiを作成してあります。在庫と顧客とcrud処理や納品登録の処理があります。デプロイはherokuにしており、freedynoを使用しているのでしばらく使用しないと起動するのに時間がかかります。junit5やmockitoなどspringbootに組み込んであるテスト機能を利用してテストもしてあります。',
     img3:'spring3.png',
-    text3:'reactとtypesciptとscssを利用しています。axiosを利用してバックエンドと通信をしています。',
+    text3:'reactとtypesciptとscssを利用しています。axiosを利用してバックエンドと通信をしています。納品履歴詳細のアコーディンメニューや削除時の確認モーダルを実装してあります。',
 };
 
 const site5 = {

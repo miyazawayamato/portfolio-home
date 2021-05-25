@@ -23,11 +23,11 @@ class Main extends React.Component {
                     <Col className="col-lg-4 col-md-6 col-12 mt-3">
                         <Box 
                             img="spring1.png"
-                            title="在庫管理システム(コードのみ)"
+                            title="在庫管理システム"
                             front="react,typescript" 
-                            back="java,springboot"
+                            back="java,springboot,(heroku)"
                             text=""
-                            siteLink="current"
+                            siteLink="https://miyazawayamato.github.io/front/mainmenu"
                             gitLink="https://github.com/miyazawayamato/spring-boot"
                             link={<Link to="/indiv/2">詳しい説明</Link>}
                         />
