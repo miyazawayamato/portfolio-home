@@ -27,7 +27,7 @@ class Main extends React.Component {
                             front="react,typescript" 
                             back="java,springboot,(heroku)"
                             text=""
-                            siteLink="https://miyazawayamato.github.io/front/mainmenu"
+                            siteLink="https://miyazawayamato.github.io/front/"
                             gitLink="https://github.com/miyazawayamato/spring-boot"
                             link={<Link to="/indiv/2">詳しい説明</Link>}
                         />
