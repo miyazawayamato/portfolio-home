@@ -50,7 +50,7 @@ class Main extends React.Component {
                             title="ロールプレイングゲーム(rpg)"
                             front="html/css,javascript" 
                             back="php"
-                            siteLink="https://dokusika.deca.jp/game/rpg/"
+                            siteLink="http://yamatosite.php.xdomain.jp/game/rpg/index.html"
                             gitLink="https://github.com/miyazawayamato/rpg"
                             link={<Link to="/indiv/3">詳しい説明</Link>}
                         />
@@ -61,7 +61,7 @@ class Main extends React.Component {
                             title="簡易cms（ブログ）"
                             front="html/css,scss,javascript" 
                             back="php"
-                            siteLink="https://dokusika.deca.jp/site/portfolio-blog/public/"
+                            siteLink="http://yamatosite.php.xdomain.jp/blog/portfolio-blog/public/index.html"
                             gitLink="https://github.com/miyazawayamato/portfolio-blog/tree/master"
                             //数字注意
                             link={<Link to="/indiv/4">詳しい説明</Link>}
