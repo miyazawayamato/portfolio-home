@@ -17,7 +17,7 @@ class Main extends React.Component {
                             back="php,laravel,(aws,docker,circleci)"
                             siteLink="http://35.72.100.242/site/laravel/public/index.php"
                             gitLink="https://github.com/miyazawayamato/laravel"
-                            link={<Link to="/indiv/1">詳しい説明</Link>}
+                            link={<Link to="/indiv/0">詳しい説明</Link>}
                         />
                     </Col>
                     <Col className="col-lg-4 col-md-6 col-12 mt-3">
@@ -29,6 +29,17 @@ class Main extends React.Component {
                             text=""
                             siteLink="https://miyazawayamato.github.io/front/"
                             gitLink="https://github.com/miyazawayamato/spring-boot"
+                            link={<Link to="/indiv/1">詳しい説明</Link>}
+                        />
+                    </Col>
+                    <Col className="col-lg-4 col-md-6 col-12 mt-3">
+                        <Box 
+                            img="todotop.png"
+                            title="予定表カレンダー" 
+                            front="vue" 
+                            back="python,(aws)"
+                            siteLink="https://miyazawayamato.github.io/vue-todo/dist/index.html#/"
+                            gitLink="https://github.com/miyazawayamato/vue-todo"
                             link={<Link to="/indiv/2">詳しい説明</Link>}
                         />
                     </Col>
@@ -41,7 +52,7 @@ class Main extends React.Component {
                             text="コロナウイルスの状況確認とTwitterBotです"
                             siteLink="https://glacial-sierra-22254.herokuapp.com/"
                             gitLink="https://github.com/miyazawayamato/laravel-react"
-                            link={<Link to="/indiv/5">詳しい説明</Link>}
+                            link={<Link to="/indiv/3">詳しい説明</Link>}
                         />
                     </Col>
                     <Col className="col-lg-4 col-md-6 col-12 mt-3">
@@ -52,7 +63,7 @@ class Main extends React.Component {
                             back="php"
                             siteLink="http://yamatosite.php.xdomain.jp/game/rpg/index.html"
                             gitLink="https://github.com/miyazawayamato/rpg"
-                            link={<Link to="/indiv/3">詳しい説明</Link>}
+                            link={<Link to="/indiv/4">詳しい説明</Link>}
                         />
                     </Col>
                     <Col className="col-lg-4 col-md-6 col-12 mt-3">
@@ -64,10 +75,10 @@ class Main extends React.Component {
                             siteLink="http://yamatosite.php.xdomain.jp/blog/portfolio-blog/public/index.html"
                             gitLink="https://github.com/miyazawayamato/portfolio-blog/tree/master"
                             //数字注意
-                            link={<Link to="/indiv/4">詳しい説明</Link>}
+                            link={<Link to="/indiv/5">詳しい説明</Link>}
                         />
                     </Col>
-                    <Col className="col-lg-4 col-md-6 col-12 mt-3">
+                    {/* <Col className="col-lg-4 col-md-6 col-12 mt-3">
                         <Box 
                             img="hometop.png"
                             title="ポートフォリオ紹介サイト" 
@@ -77,7 +88,7 @@ class Main extends React.Component {
                             gitLink="https://github.com/miyazawayamato/portfolio-home"
                             link={<Link to="/indiv/0">詳しい説明</Link>}
                         />
-                    </Col>
+                    </Col> */}
                 </Row>
             </Container>
         );
